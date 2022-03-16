@@ -15,7 +15,7 @@ describe("Authenticate User", ()=>{
     authenticateUserUseCase = new AuthenticateUserUseCase(inMemoryUsersRepository);
   })
 
-  it("should be able to login a", async ()=> {
+  it("should be able to login a user", async ()=> {
     const user = {
       email: 'rafael@gmail.com',
       name: 'rafael',

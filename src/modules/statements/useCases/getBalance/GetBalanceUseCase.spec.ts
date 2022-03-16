@@ -9,7 +9,7 @@ let inMemoryUsersRepository: InMemoryUsersRepository;
 let getBalanceUseCase: GetBalanceUseCase;
 let createStatementUseCase: CreateStatementUseCase;
 
-describe("Create User", ()=>{
+describe("GetBalance Use Case", ()=>{
 
   beforeAll(()=>{
     inMemoryUsersRepository = new InMemoryUsersRepository();
